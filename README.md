@@ -44,6 +44,10 @@ Las variables de entorno que admite la imagen corresponden por completo a las qu
 
 Los volumenes utilizados por el contenedor corresponden a la base de datos y al lugar donde The FatRat guarda los archivos creados.
 
+## Puertos
+
+**IMPORTANTE**: Antes de hacer el despliegue del contenedor es preciso tomar en cuenta los puertos utilizados para actividades como *reverse_shell* entre otras, haciendo match de dichos puertos con los de la máquina host. Para ello utilizar la bandera -p.
+
 ## Inicio de servicios.
 
 ### The FatRat
